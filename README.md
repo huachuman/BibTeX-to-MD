@@ -68,3 +68,7 @@ Output Markdown file:
 }
 ```
 @Doe2021
+
+What it looks like in Obsidian:
+
+![image](https://user-images.githubusercontent.com/125603964/228305512-e1dee90b-acb8-45fc-a4bf-583aae8baaaa.png)
