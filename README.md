@@ -1,6 +1,6 @@
 # BibTeX-to-MD
 
-A versatile script that converts and cleans BibTeX files, renaming them to `.bib.md` for embedding in Obsidian, and wrapping them in backticks for rendering with the Pretty-BibTeX plugin. You can use this to get access to your Zotero collections from within Obsidian. Just export your collection, select "keep updated", and save it in the script's input folder. I have a folder in my documents called "Bibliographies" for this purpose. Run the script whenever you want to sync your exported collections to Obsidian, or set it on a daily schedule using Windows' built-in Task Scheduler.
+A versatile python script that converts and cleans BibTeX files, renaming them to `.bib.md` for embedding in Obsidian, and wrapping them in backticks for rendering with the Pretty-BibTeX plugin. You can use this to get access to your Zotero collections from within Obsidian. Just export your collection, select "keep updated", and save it in the script's input folder. I have a folder in my documents called "Bibliographies" for this purpose. Run the script whenever you want to sync your exported collections to Obsidian, or set it on a daily schedule using Windows' built-in Task Scheduler.
 
 ## To do
 
