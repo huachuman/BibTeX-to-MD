@@ -58,6 +58,7 @@ Input BibTeX file:
 
 Output Markdown file:
 
+````
 ```bibtex
 @📄article{Doe.2021,
   author = {Doe, John},
@@ -67,7 +68,9 @@ Output Markdown file:
   note = {YES},
 }
 ```
-@Doe2021
+@Doe2021"
+````
+
 
 What it looks like in Obsidian:
 
