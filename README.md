@@ -28,20 +28,23 @@ A versatile python script that converts and cleans BibTeX files, renaming them t
 
 ## Usage
 
-1. Update the `input_directory` and `output_directory` variables in the script with the appropriate paths:
+1. download the python script (see releases)
+
+2. Update the `input_directory` and `output_directory` variables in the script with the appropriate paths:
 
    ```python
    input_directory = 'path/to/source/bibs'
    output_directory = 'path/to/obsidian/output/folder'
    ```
 
-2. Run the script:
+3. Run the script 
 
    ```
    python bibtex-to-md.py
    ```
+- (note: you could also launch it by selecting "Python" as the default system app for .py files):
 
-3. The processed `.bib.md` files will be saved in the specified output directory.
+4. The processed `.bib.md` files will be saved in the specified output directory.
 
 ## Example
 
