@@ -14,8 +14,7 @@ A versatile python script that converts and cleans BibTeX files, renaming them t
 ## Features
 
 - Converts BibTeX files to Markdown with `.bib.md` extension
-- Adds emojis to entry types for better visualization 
-   - (note: currently only articles and books have emojis, but you can add anything you want to the library yourself directly in the script e.g. 🎓thesis .)
+- Adds emojis to entry types for better visualization (can be customized)
 - Removes any field not matching those specified in the script 
    - (note: by default, only author, title, journaltitle, and doi are enabled. This can be modified simply by adding the field name where those are mentioned in the script.)
 - If it includes notes, it will be replaced with "YES". 
