@@ -39,7 +39,7 @@ This script processes BibTeX files, adding emojis to entry types and cleaning up
 2. Run the script:
 
    ```
-   python bibtex_to_md.py
+   python bibtex-to-md.py
    ```
 
 3. The processed `.bib.md` files will be saved in the specified output directory.
