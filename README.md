@@ -79,11 +79,6 @@ What it looks like in Obsidian:
 
 ## To modify this code for your purpose, you can:
 
-1. Modify the list of fields to include or exclude fields as needed.
+1. Change the list of fields to include or exclude fields as needed.
 2. Change the formatting of the output by editing the content of `output_lines` as required.
 3. Add emojis to the library of entry types for items other than article and book. e.g. 🎓thesis 
-
-## Fine-grained description of what this script does:
-
-This code is a Python script that processes BibTeX files (.bib) and converts them into Markdown files (.bib.md) with specific formatting. It reads the input files from a source folder, processes them, and writes the output files to an output folder.
-
