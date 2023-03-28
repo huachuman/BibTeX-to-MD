@@ -14,7 +14,7 @@ A versatile script that converts and cleans BibTeX files, renaming them to `.bib
 ## Features
 
 - Converts BibTeX files to Markdown with `.bib.md` extension
-- Adds emojis to entry types for better visualization (note: currently only articles and books have emojis, but you can add them to the library yourself directly in the script.)
+- Adds emojis to entry types for better visualization (note: currently only articles and books have emojis, but you can add anything you want to the library yourself directly in the script.)
 - Removes any field not matching those specified in the script (by default, only author, title, journaltitle, and doi are enabled. This can be modified simply by adding the field name where those are mentioned in the script.)
 - If it includes notes, it will be replaced with "YES". Currently can't figure out how to clean notes but plan on fixing this and possibly making it collapsible. 
 - Copies the citekey to the bottom and checks if the citekey has an @ symbol, if not, it will add one (for usage with Pandoc Reference List and other Obsidian plugins that identify citekeys in notes)
