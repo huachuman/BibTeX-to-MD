@@ -1,6 +1,6 @@
 # BibTeX-to-MD
 
-A versatile script that converts and cleans BibTeX files, renaming them to `.bib.md` for embedding in Obsidian, and wrapping them in "```bibtex / ```" code for rendering with the Pretty-BibTeX plugin.
+A versatile script that converts and cleans BibTeX files, renaming them to `.bib.md` for embedding in Obsidian, and wrapping them in backticks for rendering with the Pretty-BibTeX plugin.
 
 ## To do
 
