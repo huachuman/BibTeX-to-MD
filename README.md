@@ -9,7 +9,7 @@ A versatile script that converts and cleans BibTeX files, renaming them to `.bib
 - Add notes on known bugs
 - Explain integration use case with obsidian
 - Explain usage with task scheduler/hotkeys/obsidian script launcher
-- etc.
+- Develop UI for options/possible integration into Obsidian
 
 ## Features
 
