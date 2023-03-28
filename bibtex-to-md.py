@@ -24,6 +24,9 @@ def process_file(input_file, output_file):
                 output_lines.append(line)
             if line.strip() == '}':
                 output_lines.append('```')
+                if not citekey.startswith('@'):
+                    citekey = '@' + citekey
+                output_lines.append(citekey)
                 output_lines.append('')
     output_text = '\n'.join(output_lines)
     with open(output_file, 'w', encoding='utf-8') as file:
