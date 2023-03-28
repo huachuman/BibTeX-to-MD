@@ -4,12 +4,12 @@ A versatile script that converts and cleans BibTeX files, renaming them to `.bib
 
 ## To do
 
-Finish fixing description/readme.
-Add future directions.
-Add notes on known bugs
-Explain integration use case with obsidian
-Explain usage with task scheduler/hotkeys/obsidian script launcher
-etc.
+- Finish fixing description/readme.
+- Add future directions.
+- Add notes on known bugs
+- Explain integration use case with obsidian
+- Explain usage with task scheduler/hotkeys/obsidian script launcher
+- etc.
 
 ## Description
 
