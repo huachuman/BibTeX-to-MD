@@ -5,10 +5,10 @@ import glob
 def process_file(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as file:
         input_text = file.read()
-    fields = ['author', 'title', 'doi', 'journaltitle', 'note']
+    fields = ['author', 'title', 'doi', 'journaltitle', 'type', 'note', 'institution', 'editor', 'booktitle', 'chapter', 'edition']
     pattern = re.compile(r'(' + '|'.join(fields) + r')\s*=')
     entry_pattern = re.compile(r'@\w+\{[^,]+,')
-    entry_emojis = {'article': '📄', 'book': '📕'}
+    entry_emojis = {'article': '📄', 'book': '📕', 'preprint': '📜', 'incollection': '📖', 'techreport': '📊', 'phdthesis': '🎓🎓🎓', 'mastersthesis': '🎓🎓', 'misc': '📎', 'online': '🌐', 'patent': '✒️', 'proceedings': '📋', 'manual': '📓', 'inbook': '📘', 'booklet': '📒', 'conference': '📚', 'periodical': '📰', 'report': '📊', 'thesis': '🎓', 'letter': '✉️', 'electronic': '💻', '': ''}
     output_lines = []
     for line in input_text.split('\n'):
         if entry_pattern.match(line.strip()):
