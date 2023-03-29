@@ -7,6 +7,7 @@ A versatile python script that converts and cleans BibTeX files, renaming them t
 - Eliminate reliance on PrettyBibTeX and create custom format styles
 - Add UI for configuring options
 - Create equivalent javascript plugin for Obsidian
+- Convert a single .bib into many .bib.mds based on groups (i.e. zotero collections). This would allow for just pointing to your entire live-updated zotero library file and processing all the groups into individual .bib.md files.
 
 ## To do
 - Finish fixing description/readme.
